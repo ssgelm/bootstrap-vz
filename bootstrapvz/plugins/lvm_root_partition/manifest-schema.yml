@@ -1,0 +1,11 @@
+---
+$schema: http://json-schema.org/draft-04/schema#
+title: LVM root partition plugin manifest
+type: object
+properties:
+  plugins:
+    type: object
+    properties:
+      lvm_root_partition:
+        type: object
+        additionalProperties: false
